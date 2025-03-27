@@ -6,6 +6,7 @@ lib/Data/Entropy/RawSource/Local.pm
 lib/Data/Entropy/RawSource/RandomnumbersInfo.pm
 lib/Data/Entropy/RawSource/RandomOrg.pm
 lib/Data/Entropy/Source.pm
+Makefile.PL
 MANIFEST
 MANIFEST.SKIP
 META.json
