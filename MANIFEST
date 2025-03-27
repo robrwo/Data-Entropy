@@ -1,4 +1,3 @@
-.cvsignore
 Build.PL
 Changes
 MANIFEST
@@ -38,4 +37,3 @@ t/rs_randomorg.t
 t/shuffle.t
 t/test0.entropy
 t/with.t
-SIGNATURE    Added here by Module::Build
