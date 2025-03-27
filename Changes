@@ -10,6 +10,8 @@ version 0.008; 2025-03-27
 
   * This module has been marked as deprecated.
 
+  * A security policy was added.
+
 version 0.007; 2011-04-27
 
   * update D::E::RS::RandomOrg to cope with fractional fill percentage
