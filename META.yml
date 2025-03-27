@@ -1,7 +1,7 @@
 ---
 abstract: 'entropy (randomness) management'
 author:
-  - 'Andrew Main (Zefram) <zefram@fysh.org>'
+  - 'Robert Rothenberg <rrwo@cpan.org>'
 build_requires:
   Crypt::Rijndael: 0
   Data::Float: 0.008

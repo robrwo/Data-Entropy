@@ -1,7 +1,7 @@
 {
    "abstract" : "entropy (randomness) management",
    "author" : [
-      "Andrew Main (Zefram) <zefram@fysh.org>"
+      "Robert Rothenberg <rrwo@cpan.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110580",

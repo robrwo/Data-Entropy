@@ -311,9 +311,11 @@ L<IO::Handle>
 
 Andrew Main (Zefram) <zefram@fysh.org>
 
+Maintained by Robert Rothenberg <rrwo@cpan.org>
+
 =head1 COPYRIGHT
 
-Copyright (C) 2006, 2007, 2009, 2011
+Copyright (C) 2006, 2007, 2009, 2011, 2025
 Andrew Main (Zefram) <zefram@fysh.org>
 
 =head1 LICENSE
