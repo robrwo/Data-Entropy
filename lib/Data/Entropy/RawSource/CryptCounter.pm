@@ -44,7 +44,7 @@ use strict;
 
 use Params::Classify 0.000 qw(is_number is_ref is_string);
 
-our $VERSION = "0.007";
+our $VERSION = "0.008";
 
 =head1 CONSTRUCTOR
 
