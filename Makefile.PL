@@ -34,7 +34,8 @@ WriteMakefile(
     'PL_FILES'    => {},
     'SIGN'        => 1,
     'META_MERGE'  => {
-        resources => {
+        x_deprecated => 1,
+        resources    => {
             repository => 'git://github.com/robrwo/Data-Entropy.git',
             bugtracker => 'https://github.com/robrwo/Data-Entropy/issues',
         },

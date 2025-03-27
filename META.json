@@ -67,5 +67,6 @@
       }
    },
    "version" : "0.008",
+   "x_deprecated" : 1,
    "x_serialization_backend" : "JSON::PP version 4.06"
 }

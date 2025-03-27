@@ -39,4 +39,5 @@ resources:
   bugtracker: https://github.com/robrwo/Data-Entropy/issues
   repository: git://github.com/robrwo/Data-Entropy.git
 version: '0.008'
+x_deprecated: 1
 x_serialization_backend: 'CPAN::Meta::YAML version 0.020'

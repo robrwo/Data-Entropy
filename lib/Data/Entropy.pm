@@ -14,6 +14,24 @@ Data::Entropy - entropy (randomness) management
 		@a = shuffle(@a);
 	};
 
+=head1 STATUS
+
+This module is deprecated.
+
+For most purposes (including cryptography and security), modules like
+L<Crypt::URandom>, L<Crypt::SysRandom> or L<Crypt::PRNG> are more than
+adequate.
+
+Modern operating systems provide good sources of random bytes, and
+the above mentioned modules work on many kinds of systems, including Windows.
+
+There is no need to choose an entropy source, and some users of this
+module have omitted that step, and prior to version 0.008 they may
+have been relying on Perl's builtin C<rand> function.
+
+Please see CPAN Author's Guide to Random Data for Security
+L<https://security.metacpan.org/docs/guides/random-data-for-security.html>.
+
 =head1 DESCRIPTION
 
 This module maintains a concept of a current selection of
