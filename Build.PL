@@ -27,6 +27,7 @@ Module::Build->new(
 	requires => {
 		"Carp" => 0,
 		"Crypt::Rijndael" => 0,
+		"Crypt::URandom" => 0.36,
 		"Data::Float" => "0.008",
 		"Errno" => "1.00",
 		"Exporter" => 0,

@@ -27,12 +27,7 @@ avoiding the need to explicitly configure a source at all.
 
 If nothing is done to set a source then it defaults to the use of Rijndael
 (AES) in counter mode (see L<Data::Entropy::RawSource::CryptCounter>
-and L<Crypt::Rijndael>), keyed using Perl's built-in C<rand> function.
-This gives a data stream that looks like concentrated entropy, but really
-only has at most the entropy of the C<rand> seed.  Within a single run it
-is cryptographically difficult to detect the correlation between parts
-of the pseudo-entropy stream.  If more true entropy is required then it
-is necessary to configure a different entropy source.
+and L<Crypt::Rijndael>), keyed using L<Crypt::URandom>.
 
 =cut
 
@@ -75,10 +70,8 @@ sub entropy_source() {
 	}
 	unless(defined $entropy_source) {
 		unless(defined $default_entropy_source) {
-			my $key = "";
-			for(my $i = 32; $i--; ) {
-				$key .= chr(int(CORE::rand(256)));
-			}
+			require Crypt::URandom;
+			my $key = Crypt::URandom::urandom(32);
 			require Crypt::Rijndael;
 			require Data::Entropy::RawSource::CryptCounter;
 			require Data::Entropy::Source;

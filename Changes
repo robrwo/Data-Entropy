@@ -1,3 +1,9 @@
+version 0.008; 2025-03-27
+
+  * Use Crypt::URandom to seed the default algorithm with
+    cryptographically secure random bytes instead of the builtin
+    rand() function [CVE 2025-1860].
+
 version 0.007; 2011-04-27
 
   * update D::E::RS::RandomOrg to cope with fractional fill percentage
