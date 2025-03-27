@@ -9,3 +9,5 @@ MYMETA.yml
 Makefile.PL
 SIGNATURE
 Data-Entropy-*
+pm_to_blib
+*.bak
