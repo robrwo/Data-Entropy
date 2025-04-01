@@ -47,7 +47,7 @@ use strict;
 use Errno 1.00 qw(EIO);
 use HTTP::Lite 2.2 ();
 
-our $VERSION = "0.008";
+our $VERSION = "0.009";
 
 =head1 CONSTRUCTOR
 

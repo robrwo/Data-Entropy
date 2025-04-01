@@ -49,7 +49,7 @@ use strict;
 use Carp qw(croak);
 use IO::File 1.03;
 
-our $VERSION = "0.008";
+our $VERSION = "0.009";
 
 =head1 CONSTRUCTOR
 
