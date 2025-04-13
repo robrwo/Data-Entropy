@@ -8,6 +8,7 @@ WriteMakefile(
     'AUTHOR'        => 'Robert Rothenberg <rrwo@cpan.org>',
     'ABSTRACT_FROM' => 'lib/Data/Entropy.pm',
     'VERSION_FROM'  => 'lib/Data/Entropy.pm',
+    "LICENSE"       => "perl",
     'PREREQ_PM'     => {
         'Carp'             => 0,
         'Crypt::Rijndael'  => 0,

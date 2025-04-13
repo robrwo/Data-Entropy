@@ -1,6 +1,9 @@
 
   * Updated security policy to have consistent contact instructions.
 
+  [Other]
+  * Updated license metadata in Makefile.PL.
+
 version 0.008; 2025-03-27
 
   * Use Crypt::URandom to seed the default algorithm with
