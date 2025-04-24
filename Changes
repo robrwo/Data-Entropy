@@ -6,6 +6,8 @@ Revision history for Data-Entropy:
 
   - Reformatted Changes to conform to CPAN::Changes::Spec.
 
+  - Added a How to Contribute document.
+
   [Other]
   - Updated license metadata in Makefile.PL.
 
